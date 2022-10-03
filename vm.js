@@ -1,10 +1,10 @@
 import { Codes } from "./code.js"
 
 class JavaScriptVirtualMachine {
-    constructor(ByteCode){
+    constructor(Code){
         this.Ptr = 0;
         this.stack = [];
-        this.Code = ByteCode;
+        this.Code = Code;
     }
 
     Execute(){
